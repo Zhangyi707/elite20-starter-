@@ -1,70 +1,73 @@
 # D3 - GitHub与版本控制
 
-**日期**：2026年4月25日  
-**学员**：牛子超
+**日期**：2026年5月__日
+**学员**：张老师（大学英语教师）
 
 ---
 
-## GitHub仓库设置
+## 今日任务
 
-### 本地仓库信息
+### ✅ 主要目标
+1. Fork elite20-starter仓库到个人GitHub账户
+2. 完成首次commit并push
 
-| 项目 | 值 |
-|------|-----|
-| 仓库名称 | Elite20 |
-| 本地路径 | D:\Elite20 |
-| Git用户 | dark-077 |
-| 邮箱 | 1840458897@qq.com |
+---
 
-### 首次Commit记录
+## 操作步骤记录
+
+### Step 1: Fork仓库
+
+**仓库地址**：https://github.com/Zhangyi707/elite20-starter
+
+**操作时间**：
+**Fork后的仓库地址**：
+
+### Step 2: 克隆到本地
 
 ```bash
-$ git init
-Initialized empty Git repository in D:/Elite20/.git/
-
-$ git add README.md
-$ git commit -m "Initial commit - 创建Elite20工作区"
-[master (root-commit) f380a61] Initial commit
- 1 file changed, 0 insertions(+)
+git clone [你的fork仓库地址]
+cd elite20-starter
 ```
 
----
+**执行结果**：✅ / ❌
 
-## GitHub Desktop使用记录
+### Step 3: 配置Git
 
-### 克隆/创建仓库
+```bash
+git config --global user.name "你的名字"
+git config --global user.email "你的邮箱"
+```
 
-- 仓库路径：D:\Elite20
-- 状态：✅ 已创建并初始化
+### Step 4: 创建第一个commit
 
-### 分支策略
+```bash
+git add .
+git commit -m "D3: 完成首次commit"
+git push origin main
+```
 
-- 主分支：main/master
-- 开发分支：待创建
-
----
-
-## 实验室笔记本理念
-
-根据课程T3轨道，GitHub就像**实验室笔记本**：
-- 每次commit记录我的思考轨迹
-- 保留完整的修改历史
-- 可以回溯到任何版本
-- 支持同伴评审
-
-**从今天开始，我会把所有学习痕迹都记录在Git中。**
+**commit hash**（完成后记录）：
+**push结果**：✅ / ❌
 
 ---
 
-## 反思
+## GitHub截图
 
-这次D3任务让我理解了版本控制的重要性：
-1. **可追溯性**：每一步都有记录
-2. **安全性**：不怕误删或改错
-3. **协作性**：可以与他人共享和评审
-
-虽然没找到elite20-starter仓库，但我创建了自己的工作空间，这也是课程的一部分。
+（在完成操作后，截图保存以下内容）
+- [ ] Fork后的仓库页面
+- [ ] 首次commit记录
+- [ ] push成功的确认信息
 
 ---
 
-*提交时间：2026-04-25 22:44*
+## 3行反思
+
+**我学到了什么**
+
+**我的感受**
+
+**我的下一步**
+
+---
+
+*提交时间：*
